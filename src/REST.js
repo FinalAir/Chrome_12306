@@ -3,6 +3,7 @@
         settings = settings || {};
         settings.headers = $.extend({
             '_$Origin': 'https://kyfw.12306.cn',
+            '_$Referer' : 'https://kyfw.12306.cn/otn/leftTicket/init',
             '_$X-Requested-With': 'XMLHttpRequest'
         }, settings.headers || {});
         return $.ajax(url, settings).then(

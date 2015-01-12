@@ -7,3 +7,6 @@
 
 ### github
     https://github.com/feix760/Chrome_12306.git
+    
+### 更新
+    2015-01-12: 添加了http_referer, out文件已更新
